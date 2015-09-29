@@ -79,7 +79,7 @@ msgstr "Bitcoinには任意のメッセージを署名する昨日が備わっ�
 
 #: public/views/status.html
 msgid "Bitcoin node information"
-msgstr "Bitcoinノード情報"
+msgstr "Decredノード情報"
 
 #: public/views/block.html
 msgid "Block"

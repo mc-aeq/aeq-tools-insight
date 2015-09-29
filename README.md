@@ -1,5 +1,7 @@
 # *insight*
 
+Decred fork
+
 *insight* is an open-source bitcoin blockchain explorer with complete REST
 and websocket APIs. Insight runs in NodeJS, uses AngularJS for the
 front-end and LevelDB for storage.

@@ -12,7 +12,7 @@ angular.module('insight.address').controller('AddressController',
       socket.on($routeParams.addrStr, function(tx) {
         $rootScope.$broadcast('tx', tx);
         var beep = new Audio('/sound/transaction.mp3');
-        beep.play();
+        //beep.play();
       });
     };
 

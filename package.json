@@ -1,8 +1,9 @@
 {
   "name": "insight-bitcore",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
-  "version": "0.2.7",
-  "repository": "git://github.com/bitpay/insight.git",
+    "private": true,
+    "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
+  "version": "0.2.7D",
+    "repository": "https://github.com/decred/insight",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -26,9 +27,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight/issues"
+    "url": "https://github.com/decred/insight/issues"
   },
-  "homepage": "https://github.com/bitpay/insight",
+  "homepage": "https://github.com/decred/insight",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -39,10 +40,10 @@
     "front-end"
   ],
   "scripts": {
-    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-api"
+    "start": "INSIGHT_FORCE_RPC_SYNC=1 INSIGHT_PUBLIC_PATH=public node node_modules/.bin/insight-bitcore-api"
   },
   "dependencies": {
-    "insight-bitcore-api": ">=0.2.14"
+    "insight-bitcore-api": "git://github.com/decred/insight-api.git#master"
   },
   "devDependencies": {
     "bower": "~1.2.8",
@@ -53,8 +54,12 @@
     "grunt-contrib-uglify": "~0.3.2",
     "grunt-contrib-watch": "*",
     "grunt-macreload": "*",
-    "grunt-css": "~0.5.4",
+    "grunt-css": "jcvernaleo/grunt-css#master",
     "grunt-markdown": "~0.5.0",
     "grunt-angular-gettext": "^0.2.15"
+  },
+  "engines": {
+    "node": "0.10.40",
+    "npm": ">=2.0.0"
   }
 }

@@ -20,10 +20,10 @@ angular.module('insight.currency').controller('CurrencyController',
 
         if (this.symbol === 'USD') {
           response = _roundFloat((value * this.factor), 2);
-        } else if (this.symbol === 'mBTC') {
+        } else if (this.symbol === 'mDCR') {
           this.factor = 1000;
           response = _roundFloat((value * this.factor), 5);
-        } else if (this.symbol === 'bits') {
+        } else if (this.symbol === 'dbits') {
           this.factor = 1000000;
           response = _roundFloat((value * this.factor), 2);
         } else {
@@ -47,9 +47,9 @@ angular.module('insight.currency').controller('CurrencyController',
         Currency.get({}, function(res) {
           $rootScope.currency.factor = $rootScope.currency.bitstamp = res.data.bitstamp;
         });
-      } else if (currency === 'mBTC') {
+      } else if (currency === 'mDCR') {
         $rootScope.currency.factor = 1000;
-      } else if (currency === 'bits') {
+      } else if (currency === 'dbits') {
         $rootScope.currency.factor = 1000000;
       } else {
         $rootScope.currency.factor = 1;

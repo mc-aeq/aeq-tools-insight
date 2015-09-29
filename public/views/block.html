@@ -59,7 +59,7 @@
           </tr>
           <tr>
             <td><strong translate>Block Reward</strong></td>
-            <td class="text-right text-muted">{{$root.currency.getConvertion(block.reward) || block.reward + ' BTC'}}</td>
+            <td class="text-right text-muted">{{$root.currency.getConvertion(block.reward) || block.reward + ' DCR'}}</td>
           </tr> 
           <tr>
             <td><strong translate>Timestamp</strong></td>
@@ -71,12 +71,21 @@
               <a href="{{block.poolInfo.url}}" target="_blank" title="{{block.poolInfo.poolName}}">{{block.poolInfo.poolName}}</a>
             </td>
           </tr>
-          <tr>
+	  <tr>
             <td><strong>Merkle Root</strong></td>
             <td class="text-right text-muted">
               <div class="ellipsis">
                 <span class="btn-copy" clip-copy="block.merkleroot"></span>
                 <span>{{block.merkleroot}}</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Stake Root</strong></td>
+            <td class="text-right text-muted">
+              <div class="ellipsis">
+                <span class="btn-copy" clip-copy="block.stakeroot"></span>
+                <span>{{block.stakeroot}}</span>
               </div>
             </td>
           </tr>
@@ -91,8 +100,36 @@
         <table class="table">
           <tbody>
           <tr>
+            <td> <strong>VoteBits</strong></td>
+            <td class="text-right text-muted">{{block.votebits}}</td>
+          </tr>
+          <tr>
+            <td> <strong translate>Final State</strong></td>
+            <td class="text-right text-muted">{{block.finalstate}}</td>
+          </tr>
+          <tr>
+            <td> <strong>Voters</strong></td>
+            <td class="text-right text-muted">{{block.voters}}</td>
+          </tr>
+          <tr>
+            <td> <strong>FreshStake</strong></td>
+            <td class="text-right text-muted">{{block.freshstake}}</td>
+          </tr>
+          <tr>
+            <td> <strong>Revocations</strong></td>
+            <td class="text-right text-muted">{{block.revocations}}</td>
+          </tr>
+          <tr>
+            <td> <strong>PoolSize</strong></td>
+            <td class="text-right text-muted">{{block.poolsize}}</td>
+          </tr>
+          <tr>
             <td> <strong translate>Difficulty</strong></td>
             <td class="text-right text-muted">{{block.difficulty}}</td>
+          </tr>
+          <tr>
+            <td> <strong>SBits</strong></td>
+            <td class="text-right text-muted">{{block.sbits}}</td>
           </tr>
           <tr>
             <td> <strong>Bits</strong></td>
