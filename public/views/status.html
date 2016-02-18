@@ -115,6 +115,10 @@
             <td translate>Info Errors</td>
             <td class="text-right">{{info.infoErrors}}</td>
           </tr>
+          <tr data-ng-controller="StatusController" data-ng-init="getStatus('CoinSupply')" >
+            <td translate>Available Supply</td>
+            <td class="text-right">{{coinsupply / 1e8}} DCR</td>
+          </tr>
         </tbody>
       </table>
     </div> <!-- END OF COL-GRAY -->
