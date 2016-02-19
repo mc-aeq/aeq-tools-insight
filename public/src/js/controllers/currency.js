@@ -23,8 +23,8 @@ angular.module('insight.currency').controller('CurrencyController',
         } else if (this.symbol === 'mDCR') {
           this.factor = 1000;
           response = _roundFloat((value * this.factor), 5);
-        } else if (this.symbol === 'dbits') {
-          this.factor = 1000000;
+        } else if (this.symbol === 'atoms') {
+          this.factor = 100000000;
           response = _roundFloat((value * this.factor), 2);
         } else {
           this.factor = 1;
@@ -49,8 +49,8 @@ angular.module('insight.currency').controller('CurrencyController',
         });
       } else if (currency === 'mDCR') {
         $rootScope.currency.factor = 1000;
-      } else if (currency === 'dbits') {
-        $rootScope.currency.factor = 1000000;
+      } else if (currency === 'atoms') {
+        $rootScope.currency.factor = 100000000;
       } else {
         $rootScope.currency.factor = 1;
       }

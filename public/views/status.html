@@ -117,7 +117,7 @@
           </tr>
           <tr data-ng-controller="StatusController" data-ng-init="getStatus('CoinSupply')" >
             <td translate>Available Supply</td>
-            <td class="text-right">{{coinsupply / 1e8}} DCR</td>
+            <td class="text-right">{{$root.currency.getConvertion(coinsupply/1e8) || coinsupply + ' DCR'}}</td>
           </tr>
         </tbody>
       </table>
