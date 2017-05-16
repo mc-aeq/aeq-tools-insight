@@ -391,7 +391,6 @@ margin-left: 0;
   margin-top: 0;
   margin-bottom: 10px;
 }
-
 .icon-block {
   color: #FFFFFF;
   font-size: 35px;
@@ -492,7 +491,9 @@ margin-left: 0;
     width: 197px;
     background-color: #AC0015;
   }
-
+.tx-state-spacing {
+  margin-left: 20px;
+}
 .txvalues-normal {
   background-color: transparent;
   text-transform: none;
@@ -557,7 +558,6 @@ margin-left: 0;
     display: inline-block;
   }
 .progress-bar-info { background-color: #43A2CA; }
-
 /* Set the fixed height of the footer here */
 #footer {
   background-color: #333333;
@@ -1008,6 +1008,12 @@ a.v_highlight_more {
   width: 100%;
 }
 @media (min-width: 1200px) {
+  .blockAgeTable{
+    width: 140px;
+  }
+  .wider{
+    width: 464px;
+  }
   .col-gray-fixed {
     width: 280px;
   }
