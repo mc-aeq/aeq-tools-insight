@@ -63,7 +63,7 @@
         <thead data-ng-include src="'/views/includes/infoStatus.html'"></thead>
         <tbody>
           <tr>
-            <td translate>Last Block Hash (dcrd)</td>
+            <td translate>Last Block Hash (aeqd)</td>
             <td class="text-right ellipsis"><a href="/block/{{lastblockhash}}">{{lastblockhash}}</a></td>
           </tr>
           <tr>
@@ -117,7 +117,7 @@
           </tr>
           <tr data-ng-controller="StatusController" data-ng-init="getStatus('CoinSupply')" >
             <td translate>Available Supply</td>
-            <td class="text-right">{{$root.currency.getConvertion(coinsupply/1e8) || coinsupply + ' DCR'}}</td>
+            <td class="text-right">{{$root.currency.getConvertion(coinsupply/1e8) || coinsupply + ' AEQ'}}</td>
           </tr>
         </tbody>
       </table>
