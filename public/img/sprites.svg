@@ -2,12 +2,6 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
 
-<symbol viewBox="0 0 40 40" id="svg-decred-logo">
-	<path style="clip-path:url(#SVGID_2_);fill:#FFFFFF;" d="M17.6,23.7h9.9c3.7,0,6.7-3,6.7-6.7c0-3.7-3-6.7-6.7-6.7h-3.2l-6.7-5.9
-			h9.9c6.9,0,12.5,5.6,12.5,12.5c0,5.2-3.2,9.7-7.8,11.6l7.8,6.8h-8.9L17.6,23.7z"/>
-		<path style="clip-path:url(#SVGID_2_);fill:#FFFFFF;" d="M22.4,16.3h-9.9c-3.7,0-6.7,3-6.7,6.7c0,3.7,3,6.7,6.7,6.7h3.2l6.7,5.9
-			h-9.9C5.6,35.4,0,29.8,0,22.9c0-5.3,3.2-9.7,7.8-11.6L0,4.6h8.9L22.4,16.3z"/>
-</symbol>
 <symbol viewBox="0 0 26 26" id="svg-search">
 	<path id="XMLID_549_" style="fill:#2970FF;" d="M26,24.5l-6.9-6.9c1.5-1.9,2.4-4.2,2.4-6.8C21.5,4.8,16.7,0,10.7,0
 	C4.8,0,0,4.8,0,10.7c0,5.9,4.8,10.7,10.7,10.7c2.6,0,4.9-0.9,6.8-2.4l6.9,6.9L26,24.5z M2.4,10.7c0-4.6,3.7-8.3,8.3-8.3
