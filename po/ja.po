@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 2.0.7\n"
 
 #: public/views/transaction/tx.html
 msgid "(Input unconfirmed)"
@@ -32,8 +32,8 @@ msgstr ""
 "チェインへの問い合わせを必要とするウェブウォレットやその他のアプリを書くのに"
 "使える、完全なRESTおよびwebsocket APIを備えた<a href=\"http://live.insight."
 "is/\" target=\"_blank\">オープンソースのビットコインブロックエクスプローラ</"
-"a>です。<a href=\"http://github.com/bitpay/insight\" target=\"_blank\">ソース"
-"コード</a>を確認"
+"a>です。<a href=\"http://github.com/bitpay/insight\" target=\"_blank\">ソー"
+"スコード</a>を確認"
 
 #: public/views/index.html
 msgid ""
@@ -42,8 +42,8 @@ msgid ""
 "com/bitpay/insight/issues\" target=\"_blank\">github issue tracker</a>."
 msgstr ""
 "<strong>insight</strong>は現在開発中です。<a href=\"https://github.com/"
-"bitpay/insight/issues\" target=\"_blank\">githubのissueトラッカ</a>にてバグの"
-"報告や改善案の提案をお願いします。"
+"bitpay/insight/issues\" target=\"_blank\">githubのissueトラッカ</a>にてバグ"
+"の報告や改善案の提案をお願いします。"
 
 #: public/views/index.html
 msgid "About"
@@ -79,11 +79,11 @@ msgstr "Bitcoinには任意のメッセージを署名する昨日が備わっ�
 
 #: public/views/messages_verify.html
 msgid "Decred comes with a way of signing arbitrary messages."
-msgstr "Decredには任意のメッセージを署名する昨日が備わっています。"
+msgstr "Æquatorには任意のメッセージを署名する昨日が備わっています。"
 
 #: public/views/status.html
 msgid "Decred node information"
-msgstr "Decredノード情報"
+msgstr "Æquatorノード情報"
 
 #: public/views/block.html
 msgid "Block"
@@ -111,8 +111,8 @@ msgid ""
 "Can't connect to bitcoind to get live updates from the p2p network. (Tried "
 "connecting to bitcoind at {{host}}:{{port}} and failed.)"
 msgstr ""
-"P2Pネットワークからライブ情報を取得するためにbitcoindへ接続することができませ"
-"んでした。({{host}}:{{port}} への接続を試みましたが、失敗しました。)"
+"P2Pネットワークからライブ情報を取得するためにbitcoindへ接続することができま"
+"せんでした。({{host}}:{{port}} への接続を試みましたが、失敗しました。)"
 
 #: public/views/includes/connection.html
 msgid "Can't connect to insight server. Attempting to reconnect..."
@@ -432,32 +432,32 @@ msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\n"
 "        the Bitcoin network."
 msgstr ""
-"このフォームでは、16進数フォーマットの生のトランザクションをBitcoinネットワー"
-"ク上に配信することができます。"
+"このフォームでは、16進数フォーマットの生のトランザクションをBitcoinネット"
+"ワーク上に配信することができます。"
 
 #: public/views/transaction_sendraw.html
 msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\n"
 "        the Decred network."
 msgstr ""
-"このフォームでは、16進数フォーマットの生のトランザクションをDecredネットワー"
-"ク上に配信することができます。"
+"このフォームでは、16進数フォーマットの生のトランザクションをÆquatorネット"
+"ワーク上に配信することができます。"
 
 #: public/views/messages_verify.html
 msgid ""
 "This form can be used to verify that a message comes from\n"
 "        a specific Bitcoin address."
 msgstr ""
-"このフォームでは、メッセージが特定のBitcoinアドレスから来たかどうかを検証する"
-"ことができます。"
+"このフォームでは、メッセージが特定のBitcoinアドレスから来たかどうかを検証す"
+"ることができます。"
 
 #: public/views/messages_verify.html
 msgid ""
 "This form can be used to verify that a message comes from\n"
 "        a specific Decred address."
 msgstr ""
-"このフォームでは、メッセージが特定のDecredアドレスから来たかどうかを検証する"
-"ことができます。"
+"このフォームでは、メッセージが特定のÆquatorアドレスから来たかどうかを検証す"
+"ることができます。"
 
 #: public/views/status.html
 msgid "Time Offset"
@@ -497,7 +497,8 @@ msgstr "トランザクションの出力"
 
 #: public/views/transaction_sendraw.html
 msgid "Transaction succesfully broadcast.<br>Transaction id: {{txid}}"
-msgstr "トランザクションの配信に成功しました。<br>トランザクションID: {{txid}}"
+msgstr ""
+"トランザクションの配信に成功しました。<br>トランザクションID: {{txid}}"
 
 #: public/views/address.html public/views/block.html
 #: public/views/block_list.html public/views/index.html
